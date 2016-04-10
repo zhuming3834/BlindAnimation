@@ -15,6 +15,10 @@
 		C31DFAA71CBA18FE004179AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31DFAA51CBA18FE004179AB /* LaunchScreen.storyboard */; };
 		C31DFAB21CBA18FE004179AB /* BlindAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DFAB11CBA18FE004179AB /* BlindAnimationTests.m */; };
 		C31DFABD1CBA18FE004179AB /* BlindAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DFABC1CBA18FE004179AB /* BlindAnimationUITests.m */; };
+		C31DFACB1CBA1917004179AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31DFACA1CBA1917004179AB /* CoreGraphics.framework */; };
+		C31DFACD1CBA1931004179AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31DFACC1CBA1931004179AB /* QuartzCore.framework */; };
+		C31DFADA1CBA19BB004179AB /* BlindUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DFAD71CBA19BB004179AB /* BlindUnit.m */; };
+		C31DFADB1CBA19BB004179AB /* ToolUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DFAD91CBA19BB004179AB /* ToolUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		C31DFAB81CBA18FE004179AB /* BlindAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31DFABC1CBA18FE004179AB /* BlindAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlindAnimationUITests.m; sourceTree = "<group>"; };
 		C31DFABE1CBA18FE004179AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31DFACA1CBA1917004179AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C31DFACC1CBA1931004179AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C31DFAD61CBA19BB004179AB /* BlindUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindUnit.h; sourceTree = "<group>"; };
+		C31DFAD71CBA19BB004179AB /* BlindUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindUnit.m; sourceTree = "<group>"; };
+		C31DFAD81CBA19BB004179AB /* ToolUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolUnit.h; sourceTree = "<group>"; };
+		C31DFAD91CBA19BB004179AB /* ToolUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31DFACD1CBA1931004179AB /* QuartzCore.framework in Frameworks */,
+				C31DFACB1CBA1917004179AB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,8 @@
 		C31DFA8B1CBA18FD004179AB = {
 			isa = PBXGroup;
 			children = (
+				C31DFACC1CBA1931004179AB /* QuartzCore.framework */,
+				C31DFACA1CBA1917004179AB /* CoreGraphics.framework */,
 				C31DFA961CBA18FD004179AB /* BlindAnimation */,
 				C31DFAB01CBA18FE004179AB /* BlindAnimationTests */,
 				C31DFABB1CBA18FE004179AB /* BlindAnimationUITests */,
@@ -105,6 +119,10 @@
 				C31DFA9B1CBA18FD004179AB /* AppDelegate.m */,
 				C31DFA9D1CBA18FD004179AB /* ViewController.h */,
 				C31DFA9E1CBA18FD004179AB /* ViewController.m */,
+				C31DFAD61CBA19BB004179AB /* BlindUnit.h */,
+				C31DFAD71CBA19BB004179AB /* BlindUnit.m */,
+				C31DFAD81CBA19BB004179AB /* ToolUnit.h */,
+				C31DFAD91CBA19BB004179AB /* ToolUnit.m */,
 				C31DFAA01CBA18FE004179AB /* Main.storyboard */,
 				C31DFAA31CBA18FE004179AB /* Assets.xcassets */,
 				C31DFAA51CBA18FE004179AB /* LaunchScreen.storyboard */,
@@ -276,6 +294,8 @@
 				C31DFA9F1CBA18FD004179AB /* ViewController.m in Sources */,
 				C31DFA9C1CBA18FD004179AB /* AppDelegate.m in Sources */,
 				C31DFA991CBA18FD004179AB /* main.m in Sources */,
+				C31DFADB1CBA19BB004179AB /* ToolUnit.m in Sources */,
+				C31DFADA1CBA19BB004179AB /* BlindUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
